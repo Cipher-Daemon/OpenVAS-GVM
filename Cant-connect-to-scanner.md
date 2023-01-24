@@ -14,7 +14,7 @@ Try the following to fix this:
 open a terminal and put in the following command either as root or sudo:
 
 ```
-chmod 666 /var/run/ospd.sock
+chmod 666 /var/run/ospd/ospd.sock
 ```
 
 run it and it should not error out when you try to do a scan
